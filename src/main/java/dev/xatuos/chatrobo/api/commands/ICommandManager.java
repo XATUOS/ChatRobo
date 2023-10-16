@@ -7,6 +7,4 @@ public interface ICommandManager<S> {
         string = string.startsWith("/") ? string.substring(1) : string;
         return this.performCommand(source, string);
     }
-
-
 }
