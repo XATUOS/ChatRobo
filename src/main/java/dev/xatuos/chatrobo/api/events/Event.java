@@ -1,4 +1,4 @@
 package dev.xatuos.chatrobo.api.events;
 
-public interface IEvent {
+public abstract class Event {
 }
